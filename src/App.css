@@ -1,0 +1,66 @@
+body {
+  background-color: antiquewhite;
+}
+.App {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-top: 20px;
+  border: 1px double rgb(47, 19, 3);
+  border-radius: 5px;
+}
+.headp input {
+  height: 30px;
+  width: 200px;
+  margin-right: 3px;
+  font-size: medium;
+  margin-bottom: 5px;
+}
+button {
+  height: 35px;
+  width: 80px;
+  margin-left: 2px;
+  font-size: medium;
+}
+input[type="checkbox"] {
+  width: 25px;
+  height: 20px;
+}
+
+.task-list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: medium;
+  cursor: pointer;
+  border: none;
+}
+
+.task-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-list li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-list .delete-btn {
+  margin-top: 5px;
+  background-color: #e8ebec;
+  color: rgb(0, 0, 0);
+  border: 1px solid black shadow;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.addtask,
+.completedtask {
+  margin: 0px
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
